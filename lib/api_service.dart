@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService {
   final String apiKey =
-      '151b0fc38f6f384bef1787a662378cfc'; // Remplace par ta clé API
+      '151b0fc38f6f384bef1787a662378cfc'; 
   final String baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
   Future<Map<String, dynamic>> getWeather(String city) async {
